@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage('build') {
         steps {
-          echo "Welcome to Jenkins server using pipeline"
+          echo "Welcome to Jenkins server using pipeline!"
           sh 'python hello-world.py'
         }
     }
